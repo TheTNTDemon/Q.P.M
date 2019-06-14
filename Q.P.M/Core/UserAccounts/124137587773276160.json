@@ -1,0 +1,106 @@
+{
+  "Id": 124137587773276160,
+  "Name": "Scary Little Dinosaur 🎃",
+  "test": null,
+  "CurrentCharacter": {
+    "CurentCharacter": 1,
+    "IsMade": false,
+    "Name": "TNT",
+    "Gender": null,
+    "ExoClass": null,
+    "EquipedWeapon": "Some Rifle",
+    "PublicShield": null,
+    "Xp": 0,
+    "Level": 0,
+    "Inventory": {
+      "stick": {
+        "ItemDesc": "its a stick :D",
+        "ItemClass": "misc",
+        "ItemDamage": 0,
+        "ItemAmount": 5,
+        "ItemProtection": 0
+      },
+      "rock": {
+        "ItemDesc": "its a rock...",
+        "ItemClass": "misc",
+        "ItemDamage": 0,
+        "ItemAmount": 11,
+        "ItemProtection": 0
+      },
+      "potion": {
+        "ItemDesc": "it heals you",
+        "ItemClass": "misc",
+        "ItemDamage": 0,
+        "ItemAmount": 49,
+        "ItemProtection": 0
+      },
+      "Some Rifle": {
+        "ItemDesc": "some description",
+        "ItemClass": "weapon",
+        "ItemDamage": 44,
+        "ItemAmount": 0,
+        "ItemProtection": 0
+      }
+    },
+    "Maxhealth": 200,
+    "CurrentHealth": 138,
+    "Gold": 200,
+    "PvPFightsWon": 0,
+    "ExtraDamage": 0,
+    "ExtraShield": 0
+  },
+  "Character1": {
+    "CurentCharacter": 1,
+    "IsMade": false,
+    "Name": null,
+    "Gender": null,
+    "ExoClass": null,
+    "EquipedWeapon": null,
+    "PublicShield": null,
+    "Xp": 0,
+    "Level": 0,
+    "Inventory": {},
+    "Maxhealth": 0,
+    "CurrentHealth": 0,
+    "Gold": 200,
+    "PvPFightsWon": 0,
+    "ExtraDamage": 0,
+    "ExtraShield": 0
+  },
+  "Character2": {
+    "CurentCharacter": 0,
+    "IsMade": false,
+    "Name": null,
+    "Gender": null,
+    "ExoClass": null,
+    "EquipedWeapon": null,
+    "PublicShield": null,
+    "Xp": 0,
+    "Level": 0,
+    "Inventory": {},
+    "Maxhealth": 0,
+    "CurrentHealth": 0,
+    "Gold": 200,
+    "PvPFightsWon": 0,
+    "ExtraDamage": 0,
+    "ExtraShield": 0
+  },
+  "Character3": {
+    "CurentCharacter": 0,
+    "IsMade": false,
+    "Name": null,
+    "Gender": null,
+    "ExoClass": null,
+    "EquipedWeapon": null,
+    "PublicShield": null,
+    "Xp": 0,
+    "Level": 0,
+    "Inventory": {},
+    "Maxhealth": 0,
+    "CurrentHealth": 0,
+    "Gold": 200,
+    "PvPFightsWon": 0,
+    "ExtraDamage": 0,
+    "ExtraShield": 0
+  }
+}

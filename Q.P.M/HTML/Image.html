@@ -1,0 +1,299 @@
+﻿<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<html>
+<head>
+    <style>
+        body {
+            margin: 0px;
+            background-image: url("https://cdn.discordapp.com/attachments/450431954567823370/503928126208999435/cat-photograph_195928-800x600.jpg");
+        }
+
+        #header {
+            background: #252525;
+            width: 800px;
+            height: 81px;
+        }
+
+        #wrapper {
+            box-sizing: border-box;
+            width: 800px;
+            height: 487px;
+            color: #ffffff;
+            font-family: arial;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
+
+        #footer {
+            background: #252525;
+            width: 800px;
+            height: 32px;
+        }
+
+        #footerText {
+            position: absolute;
+            font-size: 25px;
+            padding-left: 5px;
+            padding-top: 1px;
+            color: white;
+            font: bold;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        #currentAdventure {
+            position: absolute;
+            color: darkred;
+            font-size: 25px;
+            padding-left: 245px;
+            padding-top: 1px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        #characterName {
+            position: absolute;
+            top: 18px;
+            left: 85px;
+            font-size: 30px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        #lvl {
+            position: absolute;
+            font-size: 15px;
+            top: 14px;
+            left: 742px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        #levelimg {
+            margin: 15px;
+            text-align: center;
+            display: table;
+            background-color: white;
+            width: 50px;
+            height: 50px;
+            float: right;
+            border-radius: 50px;
+        }
+
+        #weaponbox {
+            position: absolute;
+            background: #252525;
+            padding: 15px;
+            top: 120px;
+            left: 15px;
+            width: 325px;
+            height: 30px;
+            border-radius: 50px;
+            font-size: 30px;
+        }
+
+        #extrabox2 {
+            position: absolute;
+            background: #252525;
+            top: 120px;
+            left: 395px;
+            width: 360px;
+            height: 30px;
+            padding: 15px;
+            border-radius: 10px 10px 0px 0px;
+        }
+
+        #extraboxMiddle {
+            position: absolute;
+            background: #252525;
+            opacity: 0.35;
+            top: 180px;
+            left: 395px;
+            width: 360px;
+            height: 0px;
+            padding: 15px;
+            box-shadow: 20px 20px 35px black inset;
+        }
+
+        #extrabox3 {
+            position: absolute;
+            background: #252525;
+            top: 210px;
+            left: 395px;
+            width: 360px;
+            height: 30px;
+            padding: 15px;
+            border-radius: 0px 0px 10px 10px;
+        }
+
+        #shieldbox {
+            position: absolute;
+            background: #252525;
+            padding: 15px;
+            top: 210px;
+            left: 15px;
+            width: 325px;
+            height: 30px;
+            border-radius: 50px;
+            font-size: 30px;
+        }
+
+        #extrabox {
+            position: absolute;
+            background: #252525;
+            padding: 15px;
+            top: 310px;
+            left: 15px;
+            width: 740px;
+            height: 220px;
+            border-radius: 10px;
+        }
+
+        #extraboxBorder {
+            position: absolute;
+            background: #1D1D1D;
+            top: 500px;
+            width: 770px;
+            height: 60px;
+            left: 15px;
+            border-radius: 0px 0px 10px 10px;
+        }
+
+        #box1 {
+            position: absolute;
+            background: #000000;
+            border-radius: 10px;
+            width: 200px;
+            height: 70px;
+            right: 10px;
+            top: 10px;
+        }
+
+        #box2 {
+            position: absolute;
+            background: #000000;
+            border-radius: 10px;
+            width: 200px;
+            height: 70px;
+            right: 10px;
+            top: 95px;
+        }
+
+        #boxText {
+            opacity: 1;
+            position: absolute;
+            font-size: 25px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            left: 5px;
+            top: 3px;
+        }
+
+        #boxText2 {
+            position: absolute;
+            font-size: 21px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            left: 5px;
+            bottom: 3px;
+        }
+
+        #class {
+            position: absolute;
+            font-size: 35px;
+            bottom: 10px;
+            left: 7px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        progress {
+            background-color: black;
+            float: right;
+            margin-right: 20px;
+            margin-top: 15px;
+            width: 350px;
+            height: 30px;
+            border-radius: 2px
+        }
+
+            progress::-webkit-progress-bar {
+                height: 30px;
+                width: 350px;
+                border-radius: 2px
+            }
+
+            progress::-webkit-progress-value {
+                background: -webkit-linear-gradient(top, #4cff00 0%, #00ff21 100%);
+                height: 30px;
+                width: 350px;
+                border-radius: 2px
+            }
+
+        #levelNumber {
+            font-size: 25px;
+            font-weight: bold;
+            display: table-cell;
+            vertical-align: middle;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+        }
+    </style>
+</head>
+<body>
+    <div id="header">
+        <img src="{AVATARURL}" alt="ProfilePic" style="padding: 7.5px; border-radius: 50px;" />
+        <div id="characterName">
+            {CHARACTERNAME}
+        </div>
+        <div id="levelimg">
+            <div id="levelNumber">
+                {LVL}
+            </div>
+        </div>
+        <div id="lvl">
+            Level
+        </div>
+    </div>
+    <div id="wrapper">
+        <div id="weaponbox">
+            {WEAPON BOX}
+        </div>
+        <div id="shieldbox">
+            {SHIELD BOX}
+        </div>
+        <div id="extrabox">
+            <div id="box1">
+                <div id="boxText">
+                    Married to:
+                </div>
+                <div id="boxText2">
+                    nobody
+                </div>
+            </div>
+            <div id="box2">
+                <div id="boxText">
+                    Guild:
+                </div>
+                <div id="boxText2">
+                    None at the moment
+                </div>
+            </div>
+        </div>
+        <div id="extraboxBorder">
+            <div id="class">
+                CLASS:
+            </div>
+            <progress value="{XP}" max="100"></progress>
+        </div>
+        <div id="extrabox2">
+
+        </div>
+        <div id="extraboxMiddle">
+
+        </div>
+        <div id="extrabox3">
+
+        </div>
+    </div>
+    <div id="footer">
+        <div id="footerText">
+            CURRENT ADVENTURE:
+        </div>
+        <div id="currentAdventure">
+            You are in no adventure!
+        </div>
+    </div>
+</body>
+</html>
